@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  background-color: #cec6c6;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  5%;
+  color: #63615a;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #D97D55 ;
+}
+
+.green {
+  background-color: #B8C4A9;
+}
+
+.blue {
+  background-color: #6FA4AF
+  ;
+}
+
+.yellow {
+  background-color: #F4E9D7;
+}
+
+.pressed {
+  box-shadow: 0 0 20px rgb(248, 232, 11);
+  background-color: grey;
+  background-image: url("./images/pikachu.png");
+  background-position: center;
+  background-size: contain;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  background-color: #63615a;
+  border: 0;
+  border-radius: 5%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  padding: 10px;
+  color: beige;
+}
+
+.invisible {
+   display: none;
+}
